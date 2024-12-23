@@ -1,0 +1,29 @@
+.customimg{
+
+    border-radius: 50% !important;
+    width: 650px;
+  }
+  
+.signbtn {
+    background-color:#e7d9ad;
+    color:#ac9364; 
+    border: none;
+    border-radius: 50px; 
+    padding: 10px 20px;
+
+  }
+  
+  .signbtn:hover {
+    background: linear-gradient(to right, rgb(0, 0, 0), #efd68b);
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    height: 39px;
+    text-align: center;
+    font-weight: bold;
+}
+  
+  .custmh1{
+
+    color:#ac9364;
+  }

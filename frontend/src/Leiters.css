@@ -1,0 +1,41 @@
+.custom1{
+  background-color: #f6f2e6;
+}
+
+
+.custom-input {
+    width: 200px;
+  }
+  
+  .signbtn {
+    background-color:#ac9364;
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+  
+  .signbtn:hover {
+    background: linear-gradient(to right, rgb(0, 0, 0), #efd68b);
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    height: 39px;
+    text-align: center;
+    font-weight: bold;
+}
+  .custmh1{
+
+    color:#ac9364;
+  }
+  .custom-input{
+    color:#ac9364 !important;
+    border-radius: 15px !important; 
+      border: 2px solid #ac9364 !important; 
+      padding: 10px;
+  
+  }
+  .custom-input::placeholder {
+    color:#ac9364 !important; 
+    opacity: 1; 
+  }

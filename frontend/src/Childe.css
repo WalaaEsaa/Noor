@@ -1,0 +1,74 @@
+/* Background for the form container */
+.custom1 {
+    background-color: #f6f2e6;
+    padding: 20px; /* Added padding for better spacing */
+    min-height: 100vh; /* Ensures full viewport coverage */
+  }
+  
+  /* Input field styles */
+  .custom-input {
+    color: #ac9364 !important;
+    border-radius: 15px !important;
+    border: 2px solid #ac9364 !important;
+    padding: 10px;
+    width: 100%; /* Ensure responsive width */
+    max-width: 300px; /* Limit maximum width */
+    margin: 0 auto; /* Center align for small screens */
+  }
+  
+  .custom-input::placeholder {
+    color: #ac9364 !important;
+    opacity: 0.8; /* Slightly dimmed placeholder text */
+  }
+  
+  /* Radio button label styling */
+  .custom-input1 {
+    color: #ac9364 !important;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Added spacing between elements */
+  }
+  
+  /* Button styles */
+  .signbtn {
+    background-color: #ac9364;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .signbtn:hover {
+    background: linear-gradient(to right, rgb(0, 0, 0), #efd68b);
+    color: #fff; /* Ensure text remains visible */
+    transform: scale(1.05); /* Slight scale effect */
+    font-weight: bold;
+  }
+  
+  /* Heading styling */
+  .custmh1 {
+    color: #ac9364;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Additional styling for responsiveness */
+  @media (max-width: 768px) {
+    .custom-input {
+      width: 90%; /* Adjust width for smaller screens */
+      max-width: 100%; /* Remove max-width limit */
+    }
+  
+    .signbtn {
+      width: 100%; /* Make buttons full-width on small screens */
+      border-radius: 15px; /* Adjust button border radius */
+    }
+  
+    .custom1 {
+      padding: 10px; /* Reduce padding on smaller devices */
+    }
+  }
+  

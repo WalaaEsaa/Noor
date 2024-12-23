@@ -1,0 +1,159 @@
+/* القائمة الجانبية */
+.links {
+  display: block;
+  text-align: right;
+  margin: 0 auto;
+  max-width: 100%;
+  padding-left: 10px;
+  border-left: 1px solid rgb(235, 234, 234);
+}
+
+.link-item {
+  display: block;
+  padding: 10px;
+  color: black;
+  text-align: right;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.link-item:hover {
+  background: linear-gradient(to right, rgb(183, 168, 105), #efd68b);
+  color: white;
+  border-radius: 50px 0 0 50px;
+}
+
+/* العنوان الرئيسي */
+.main-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: right;
+  background-color: #e7d9ad;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.main-title1 {
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #e7d9ad;
+  margin: auto;
+  border-radius: 50px 50px 50px 50px;
+  width: 25%;
+  margin-bottom: 15px;
+  
+}
+
+/* الجدول */
+.table-responsive {
+  overflow-x: auto;
+}
+
+.table {
+  background-color: #f0ead6;
+  text-align: center;
+}
+
+.table th,
+.table tr {
+  border: 2px solid rgb(150, 148, 148);
+}
+
+/* الأزرار */
+.signbtnn {
+  color: #d1b14f;
+  background-color: white;
+  border: none;
+  font-size: large;
+  width: auto;
+  margin: 10px 0;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.block-span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  background-color: #f0ead8;
+  width: 30%;
+  height: 100px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px; /* Add margin to avoid crowding on smaller screens */
+}
+
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .main-title1 {
+    font-size: 1.2rem; /* Adjust title size on smaller screens */
+  }
+
+  .links {
+    text-align: center;
+    border: none;
+  }
+
+  .link-item {
+    text-align: center;
+    margin: 5px auto;
+    width: auto;
+  }
+
+  .signbtnn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .group {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center;
+  }
+
+  .item {
+    width: 80%; /* Increase item width for better mobile view */
+    margin-bottom: 20px; /* Ensure there's space between items */
+  }
+}
+
+@media (max-width: 576px) {
+  .main-title {
+    font-size: 1.5rem;
+  }
+
+  .link-item {
+    font-size: small;
+    padding: 8px;
+  }
+
+  .table th,
+  .table td {
+    font-size: 12px;
+  }
+
+  .signbtnn {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  .item {
+    width: 100%; /* Ensure items take full width */
+    margin-bottom: 20px; /* Add space between items */
+  }
+
+  /* Adjust the side menu for smaller screens */
+  .links {
+    text-align: center;
+    border: none;  /* Remove the border for better display on smaller screens */
+  }
+}

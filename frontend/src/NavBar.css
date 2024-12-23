@@ -1,0 +1,126 @@
+.logo {
+  max-width: 56px; 
+  border-radius:50%;
+  transition: transform 0.3s ease, opacity 0.3s ease; 
+  }
+  .logo:hover {
+  transform: scale(1.1); 
+  opacity: 0.9; 
+  }
+  /* تست اللوغو */
+  .name-logo{
+    color: #efd68b;
+    font-size: 20px;
+    margin: 0 10px 0 0px;
+  }
+  .name-logo:hover{
+    color: #614c10;
+    font-size: 20px;
+    margin: 0 10px 0 0px;
+  }
+
+  
+  .navbar {
+  background-color:rgb(0, 0, 0);
+  
+  }
+  
+  
+  .navbar-nav .nav-link {
+  color: #efd68b !important;
+  font-size: 15px;
+  font-weight: bold;
+  margin:0px 15px 0px 15px;
+  
+  
+  }
+  
+  .navbar-nav .nav-link:hover{
+  color: #e0bc46 !important;
+  
+  
+  
+  
+  }
+  @media (max-width: 786px) {
+  
+  
+  .navbar .nav-link {
+      text-align:center;
+      margin: 10px 0; 
+  }
+  .navbar .navbar-toggler{
+  
+      background-color:#efd68b;
+  }
+  
+  
+  }
+  .navbar[dir="rtl"] .dropdown-menu .dropdown-menu {
+  
+  right: 100%; 
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  visibility: hidden;
+  background-color:black;
+  
+  }
+  
+  
+  .navbar[dir="rtl"] .dropdown-menu .dropdown-menu.show {
+  opacity: 1;
+  transform: translateX(0);
+  visibility: visible;
+  
+  }
+  
+  .navbar .dropdown-item {
+  color: #f4c18b; 
+  text-align: center;
+  }
+  .navbar .dropdown-menu {
+  background-color:black;
+  
+  
+  }
+  .navbar .dropdown-item{
+  color:#d6c479;
+  }
+  .navbar .dropdown-item:hover{
+      color:#000000;
+      background-color: #d6c479;
+      }
+ 
+  .button{
+  
+      font-weight: lighter;
+      background-color: #fcefa9;
+      border-radius: 20px;
+      border-radius: color #000000;
+      color: #a39364;
+      margin:10px;
+      padding: 4px;
+  }
+  
+  
+  .button:hover{
+      background-color: #a39364;
+      color: #fcefa9;
+  
+  }
+  
+  
+  .nav-item {
+      text-align: center;
+       
+  }
+  
+  
+  .navbar-nav.nav-link:hover {
+      background: linear-gradient(to right, rgb(0, 0, 0), #efd68b);
+      padding: 10px;
+      border-radius: 20px;
+      width: 100px;
+      height: 39px;
+      text-align: center;
+      font-weight: bold;
+  }

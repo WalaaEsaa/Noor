@@ -1,0 +1,108 @@
+
+.link-item {
+display: block;
+padding: 10px 15px;
+  background-color:none;
+  color: black;
+
+  transition: 0.3s, color 0.3s;
+
+  display: block;
+}
+.links{
+  margin-left: 100px;
+  margin-top: 50px;
+  
+}
+
+.link-item:hover {
+  background: linear-gradient(to right, rgb(0, 0, 0), #efd68b);
+  color: #fff;
+}
+
+.separator {
+  width: 2px;
+  background-color: #979292;
+  height: 100%;
+}
+
+.main-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: right;
+  background-color: #e7d9ad;
+  border-radius:50px;
+  padding: 10px;
+  
+
+}
+.main-title1{
+  text-align: right;
+  
+}
+.group {
+  margin-bottom: 20px;
+}
+
+
+.item {
+  
+  min-width: 160px;
+  margin: 10px;
+  padding: 15px;
+  background-color: #e7d9ad;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  padding: 30px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+.block-span {
+  display: block; 
+  margin-bottom: 5px; 
+}
+
+
+.item:hover {
+  background: linear-gradient(to right, rgb(0, 0, 0), #efd68b);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+  .main-title {
+    text-align: center;
+  }
+
+  .item {
+    min-width: 100%;
+  }
+
+  .separator {
+    display: none;
+  }
+  .links {
+    margin-left: 0;
+    margin-top: 20px; 
+    text-align: center; 
+  }}
+  .signbtn {
+    background-color:#ac9364;
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+  
+  .signbtn:hover {
+  
+    background: linear-gradient(to right, rgb(0, 0, 0), #efd68b);
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    height: 39px;
+    text-align: center;
+    font-weight: bold;
+  }
